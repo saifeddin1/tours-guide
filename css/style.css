@@ -204,7 +204,7 @@ section.container {
 	font-weight: 600;
 	line-height: 38px;
 	margin-bottom: 50px;
-	max-width: 280px;
+	
 }
 
 .home-btn {
@@ -948,7 +948,9 @@ header.sticky {
 		height: 85vh;
 		transition: .2s;
 	}
-
+	.home-text p {
+		max-width: 280px;
+	}
 	.newsletter form div {
 		width: 90%;
 		margin-right: 5%;
