@@ -190,7 +190,7 @@ section.container {
 }
 
 .home-text h1 {
-	font-size: var(--big-font);
+	font-size: 3rem;
 	line-height: 1.2;
 	color: var(--bg-color);
 	font-family: 'Paytone One', sans-serif;
@@ -204,6 +204,7 @@ section.container {
 	font-weight: 600;
 	line-height: 38px;
 	margin-bottom: 50px;
+	max-width: 280px;
 }
 
 .home-btn {
