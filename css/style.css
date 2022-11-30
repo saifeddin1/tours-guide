@@ -40,10 +40,10 @@ header {
 
 .logo {
 	font-size: 35px;
-	font-weight: 600;
 	letter-spacing: 1px;
 	color: var(--bg-color);
 	font-family: 'Covered By Your Grace', cursive;
+	filter: drop-shadow(2px 4px 6px black);
 }
 
 .navbar {
@@ -156,10 +156,52 @@ section.container {
 }
 
 #about-me-box .row #about-img img {
-	width: 416px;
-	height: 420px;
+	width: 100%;
+	height: 100%;
 	border-radius: 15px;
 }
+
+
+.tab {
+	overflow: hidden;
+	/* border: 1px solid #ccc; */
+	/* background-color: #f1f1f1; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 20px;
+	transition: all .3s ease-in-out;
+	margin-inline: 1rem;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #ccc;
+	/* border-bottom: 2px solid; */
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+
+}
+
 
 .home {
 	position: relative;
@@ -189,14 +231,17 @@ section.container {
 	z-index: 99;
 }
 
-.home-text h1 {
-	font-size: 3rem;
+.home-text h1,
+.home-text #now {
+	font-size: 5rem;
 	line-height: 1.2;
 	color: var(--bg-color);
 	font-family: 'Paytone One', sans-serif;
 	letter-spacing: 4px;
 	margin-bottom: 20px;
 }
+
+
 
 .home-text p {
 	color: #ffffffbf;
@@ -230,10 +275,15 @@ header.sticky {
 
 .sticky .logo {
 	color: var(--text-color);
+	filter: none;
 }
 
 .sticky .navbar a {
 	color: var(--text-color);
+}
+
+.sticky .navbar span#lang {
+	color: var(--text-color) !important;
 }
 
 .text h2 {
@@ -634,7 +684,7 @@ header.sticky {
 	}
 }
 
-@media(max-width:340px) {
+@media (max-width:340px) {
 	.box-top {
 		flex-wrap: wrap;
 		margin-bottom: 10px;
@@ -659,6 +709,7 @@ header.sticky {
 	align-items: baseline;
 	justify-content: space-between;
 	grid-gap: 3rem;
+	padding: 89px 12% !important;
 }
 
 .news-text h2 {
@@ -850,8 +901,12 @@ header.sticky {
 		display: block;
 	}
 
-	.stick #menu-icon {
-		color: var(--text-color);
+	.sticky #menu-icon {
+		color: var(--text-color) !important;
+	}
+
+	.sticky .navbar span#lang {
+		color: var(--bg-color) !important;
 	}
 
 	.home {
@@ -939,6 +994,11 @@ header.sticky {
 		width: 350px;
 	}
 
+	.home-text h1,
+	.home-text #now {
+		font-size: 3rem;
+	}
+
 	:root {
 		--big-font: 3.8rem;
 		--h2-font: 1.8rem;
@@ -961,6 +1021,22 @@ header.sticky {
 	.newsletter form div {
 		width: 90%;
 		margin-right: 5%;
+	}
+}
+
+@media (max-width: 560px) {
+
+	.home-text h1,
+	.home-text #now {
+		font-size: 2rem;
+	}
+
+	.tab button {
+		margin: 0;
+	}
+
+	.newsletter form div {
+		font-size: 1.3rem !important;
 	}
 }
 
