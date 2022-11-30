@@ -103,7 +103,13 @@ const translations = {
 		"about-text": `Hi! My name is Ahmed Gnouma, I'm 36. I'm originally from Matmata, a Berber village that nature sent it to this beautiful desert and geographical spot. I like to guide travelers to discover Matmata and nearby places as well as Tataouine and the Tunisian Sahara. I put my expreience in tourism at your service for several events that I can propose (Tours... Hikes.... And excursions)`,
 
 		"quick": "Liens Rapides",
-		"copyright": "Tous Droits Reserves"
+		"copyright": "All Rights Reserved",
+		"gallery-headline": "Photos Gallery",
+		"gallery-home": `Enjoy a variety of photos taken in the south tunisian 
+		villages while having our activities.`,
+		"riche": "Our rich Gallery",
+		"rich-text": "Here you can find all different photos taken either by us or by our customers",
+
 
 
 
@@ -172,7 +178,13 @@ const translations = {
 		"meet": "Rencontrez votre guide, Ahmed 👋",
 		"about-text": `Salut! Je m'appelle Ahmed Gnouma, j'ai 36 ans. Je suis originaire de Matmata, un village berbère que la nature a envoyé dans ce magnifique endroit désertique et géographique. J'aime guider les voyageurs pour découvrir Matmata et ses environs ainsi que Tataouine et le Sahara tunisien. Je mets mon expérience du tourisme à votre service pour plusieurs événements que je peux vous proposer (Circuits... Randonnées... Et excursions)`,
 		"quick": "Liens Rapides",
-		"copyright": "Tous les droits sont réservés"
+		"copyright": "Tous les droits sont réservés",
+		"gallery-headline": "Gallerie de photos",
+		"gallery-home": `Profitez d'une variété de photos prises dans les villages
+		du sud tunisien tout en ayant nos activités.`,
+		"riche": "Notre riche galerie",
+		"rich-text": "Ici vous pouvez trouver toutes les différentes photos prises par nous ou par nos clients",
+
 
 
 
@@ -187,8 +199,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Find all elements that have the key attribute
 		.querySelectorAll("[data-translation]")
 		.forEach(translateElement);
-	if (localStorage.getItem('locale') == "fr") {
-		console.log(document.querySelector('.newsletter form div'));
+	if (document.querySelector('.newsletter form div') && localStorage.getItem('locale') == "fr") {
+		// console.log(document.querySelector('.newsletter form div'));
 		document.querySelector('.newsletter form div').style.width = "100%";
 		document.querySelector('.newsletter form div').style.marginRight = "0";
 
@@ -203,7 +215,7 @@ function translateElement(element) {
 langSwitch.parentElement.addEventListener('click', (e) => {
 	console.log(e.target.innerText);
 	localStorage.setItem('locale', langSwitch.innerText.includes("EN") ? "en" : "fr");
-	if (localStorage.getItem('locale') == "fr") {
+	if (document.querySelector('.newsletter form div') && localStorage.getItem('locale') == "fr") {
 		console.log(document.querySelector('.newsletter form div').style.width);
 		document.querySelector('.newsletter form div').style.width = "100% !important";
 		document.querySelector('.newsletter form div').style.marginRight = "0 !important";
