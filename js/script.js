@@ -78,32 +78,36 @@ const translations = {
 		"best-text": `The packages and prices varies depending on several factors
 						such as departure place, number of individuals etc ...`,
 
-		"matmata-tataouine-1": `1-4 day at : Toujene, Kessar halouf, Kesar hadada, Germsaa and chenini.`,
-		"matmata-tataouine-2": `Lunch around noon`,
-		"matmata-ghilane-1": `1-4 days at Matmata Village, Tataouine, Kessar Ghilane`,
-		"matmata-ghilane-2": `Nights under the magnific saharien sky of kesar ghilane`,
-		"matmata-tozeur-1": `Departure from Matmata with Bivouac`,
-		"matmata-tozeur-2": `1-4 days at Saharas`,
-		"matmata-tozeur-3": `Tours on Camels`,
-		"matmata-toujaine-1": `Excursions with bivouac in Matmata, Hedaj, Toujaine and DaHer.`,
-		"matmata-toujaine-2": `Walking tours for those who enjoy it.`,
-		"gabes-tataouine": `Visits to a lot of ksour in semi-arid terrain. Chenini, Ksar Hadada, and Ksar Medenine visits. In Guermassa, lunch included.`,
-		"gabes-ghilane": `Lunch-included Day trip to Ksar Ghilane in the desert visit to the Medenine Ksar and the Berber area.
-		Journey from Gabès`,
-		"gabes-tozeur": `Southern Tunisian circuit in 4X4, The mountain oases, Chebika, Tamerza, Mides, and the Berber region.`,
-		"djerba-tataouine": `Trip to Tataouine to visit the Star Wars filming locations at Ksar Hadada, Chenini, and the Ksar of Medenine.`,
-		"djerba-ghilane": `EXCURSION FROM DJERBA TO KSAR GHILANE Visitign THE SAND DESERT.
-		Chances For Camel Or Quad Rides.
-		Bivouac Douz, Timbaine, Mida, Luc Reched, Kasar Guilaine.`,
-		"djerba-tozeur": `Visits to Nefta, Tataouine, Douz, and Tozeur. Matmata and Ksar Ghilane Chebika, Tamerza, and the Mides Canyon are the mountain oasis.`,
+		"matmata-tataouine-1": `Visit Berber village and ksour of tatouine.`,
+		// "matmata-tataouine-2": `Lunch around noon`,
+		"matmata-ghilane-1": `Tours From  Matmata To Ksar Ghilane.`,
+		// "matmata-ghilane-2": `Nights under the magnific saharien sky of kesar ghilane`,
+		"matmata-tozeur-1": `Departure from Matmata To Tozeur`,
+		// "matmata-tozeur-2": `1-4 days at Saharas`,
+		// "matmata-tozeur-3": `Tours on Camels`,
+		"matmata-toujaine-1": `Excursions  in Matmata, Hedaj, Toujaine and DaHer.`,
+		// "matmata-toujaine-2": `Walking tours for those who enjoy it.`,
+		"gabes-tataouine": `Visit a lot of Ksours From Gabès to Tataouine.`,
+		"gabes-ghilane": `Excursion to Different Ksour From Gabès to Ksar Ghilane`,
+		"gabes-tozeur": `Southern Tunisian circuit From  Gabès to Touzer .`,
+		"djerba-tataouine": `Travel From Djerba to Tataouine via different Ksours.`,
+		"djerba-ghilane": `Excursion from Djerba to Ksar Ghilane Visiting Saharas.`,
+		"djerba-tozeur": `Visits to Tozeur departing from Djerba.`,
 		"days": `1 day - 4 days`,
 		"popular-des": `Our Most Popular 
 							Destinations!`,
-		"meet": "Meet Your Guide, Ahmed 👋",
+		
+							"meet": "Meet Your Guide, Ahmed 👋",
 		"about-text": `Hi! My name is Ahmed Gnouma, I'm 36. I'm originally from Matmata, a Berber village that nature sent it to this beautiful desert and geographical spot. I like to guide travelers to discover Matmata and nearby places as well as Tataouine and the Tunisian Sahara. I put my expreience in tourism at your service for several events that I can propose (Tours... Hikes.... And excursions)`,
 
 		"quick": "Liens Rapides",
-		"copyright": "Tous Droits Reserves"
+		"copyright": "All Rights Reserved",
+		"gallery-headline": "Photos Gallery",
+		"gallery-home": `Enjoy a variety of photos taken in the south tunisian 
+		villages while having our activities.`,
+		"riche": "Our rich Gallery",
+		"rich-text": "Here you can find all different photos taken either by us or by our customers",
+
 
 
 
@@ -147,24 +151,26 @@ const translations = {
 		"best-text": `Les forfaits et les prix varient en fonction de plusieurs facteurs
 						comme le lieu de départ, le nombre d'individus etc...`,
 
-		"matmata-tataouine-1": `1-4 jours à : Toujene, Kessar halouf, Kesar hadada, Germsaa et chenini.`,
-		"matmata-tataouine-2": `Déjeuner vers midi`,
-		"matmata-ghilane-1": `1-4 jours à Matmata Village, Tataouine, Kessar Ghilane`,
-		"matmata-ghilane-2": `Nuits sous le magnifique ciel saharien de kesar ghilane`,
-		"matmata-tozeur-1": `Départ de Matmata avec Bivouac`,
-		"matmata-tozeur-2": `1-4 jours au Sahara`,
-		"matmata-tozeur-3": `Tours à dos de chameau`,
-		"matmata-toujaine-1": `Excursions avec bivouac à Matmata, Hedaj, Toujaine et DaHer.`,
-		"matmata-toujaine-2": `Visites à pied pour ceux qui l'apprécient.`,
-		"gabes-tataouine": `Visites de nombreux ksour en terrain semi-aride. Visites de Chenini, Ksar Hadada et Ksar Médenine. A Guermassa, déjeuner inclus.`,
-		"gabes-ghilane": `Déjeuner inclus Excursion d'une journée à Ksar Ghilane dans le désert visite du Ksar de Médenine et de la région berbère.
-		Voyage depuis Gabès`,
-		"gabes-tozeur": `Circuit sud tunisien en 4X4, Les oasis de montagne, Chebika, Tamerza, Mides, et la région berbère.`,
-		"djerba-tataouine": `Voyage à Tataouine pour visiter les lieux de tournage de Star Wars à Ksar Hadada, Chenini et le Ksar de Médenine`,
-		"djerba-ghilane": `EXCURSION DE DJERBA A KSAR GHILANE Visiter LE DESERT DE SABLE.
-		Possibilités de balades à dos de chameau ou de quad`,
-		"djerba-tozeur": `Visites de Nefta, Tataouine, Douz et Tozeur. Matmata et Ksar Ghilane Chebika, Tamerza et le canyon de Mides sont l'oasis de montagne.`,
+		"matmata-tataouine-1": `Viste village berber et ksour de tatouine.`,
+		// "matmata-tataouine-2": `Déjeuner vers midi`,
+		"matmata-ghilane-1": `Visite de Matmata Vers Ksar Ghilane`,
+		// "matmata-ghilane-2": `Nuits sous le magnifique ciel saharien de kesar ghilane`,
+		"matmata-tozeur-1": `Départ de Matmata Vers Tozeur`,
+		// "matmata-tozeur-2": `1-4 jours au Sahara`,
+		// "matmata-tozeur-3": `Tours à dos de chameau`,
+		"matmata-toujaine-1": `Excursions  à Matmata, Hedaj, Toujaine et DaHer.`,
+		// "matmata-toujaine-2": `Visites à pied pour ceux qui l'apprécient.`,
+		"gabes-tataouine": `Visites de nombreux ksour De Gabès Vers Tataouine.`,
+		"gabes-ghilane": ` Excursion à Diffèrent 
+		Ksour De Gabès vers Ksar Ghilane`,
+		"gabes-tozeur": `Circuit sud tunisien De Gabès à Touzer.`,
+		"djerba-tataouine": `Voyage De Djerba à Tataouine en passant par different Ksours`,
+		"djerba-ghilane": `Excursion de Djerba à Ksar Ghilane et Visiter les Saharas.`,
+		"djerba-tozeur": `Visites de  Tozeur 
+		au départ de Djerba.`,
+		
 		"days": `1 jour - 4 jours`,
+		
 		"popular-des": `Nos destinations 
 						 les plus populaires!`,
 
@@ -172,7 +178,13 @@ const translations = {
 		"meet": "Rencontrez votre guide, Ahmed 👋",
 		"about-text": `Salut! Je m'appelle Ahmed Gnouma, j'ai 36 ans. Je suis originaire de Matmata, un village berbère que la nature a envoyé dans ce magnifique endroit désertique et géographique. J'aime guider les voyageurs pour découvrir Matmata et ses environs ainsi que Tataouine et le Sahara tunisien. Je mets mon expérience du tourisme à votre service pour plusieurs événements que je peux vous proposer (Circuits... Randonnées... Et excursions)`,
 		"quick": "Liens Rapides",
-		"copyright": "Tous les droits sont réservés"
+		"copyright": "Tous les droits sont réservés",
+		"gallery-headline": "Gallerie de photos",
+		"gallery-home": `Profitez d'une variété de photos prises dans les villages
+		du sud tunisien tout en ayant nos activités.`,
+		"riche": "Notre riche galerie",
+		"rich-text": "Ici vous pouvez trouver toutes les différentes photos prises par nous ou par nos clients",
+
 
 
 
@@ -187,8 +199,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Find all elements that have the key attribute
 		.querySelectorAll("[data-translation]")
 		.forEach(translateElement);
-	if (localStorage.getItem('locale') == "fr") {
-		console.log(document.querySelector('.newsletter form div'));
+	if (document.querySelector('.newsletter form div') && localStorage.getItem('locale') == "fr") {
+		// console.log(document.querySelector('.newsletter form div'));
 		document.querySelector('.newsletter form div').style.width = "100%";
 		document.querySelector('.newsletter form div').style.marginRight = "0";
 
@@ -203,7 +215,7 @@ function translateElement(element) {
 langSwitch.parentElement.addEventListener('click', (e) => {
 	console.log(e.target.innerText);
 	localStorage.setItem('locale', langSwitch.innerText.includes("EN") ? "en" : "fr");
-	if (localStorage.getItem('locale') == "fr") {
+	if (document.querySelector('.newsletter form div') && localStorage.getItem('locale') == "fr") {
 		console.log(document.querySelector('.newsletter form div').style.width);
 		document.querySelector('.newsletter form div').style.width = "100% !important";
 		document.querySelector('.newsletter form div').style.marginRight = "0 !important";
