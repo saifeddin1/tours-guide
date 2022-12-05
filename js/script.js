@@ -96,8 +96,9 @@ const translations = {
 		"days": `1 day - 4 days`,
 		"popular-des": `Our Most Popular 
 							Destinations!`,
-		
-							"meet": "Meet Your Guide, Ahmed 👋",
+		"saharian-text": "Enjoy different saharas in the southern tunisian regions.",
+		"saharian": "Saharian Tours",
+		"meet": "Meet Your Guide, Ahmed 👋",
 		"about-text": `Hi! My name is Ahmed Gnouma, I'm 36. I'm originally from Matmata, a Berber village that nature sent it to this beautiful desert and geographical spot. I like to guide travelers to discover Matmata and nearby places as well as Tataouine and the Tunisian Sahara. I put my expreience in tourism at your service for several events that I can propose (Tours... Hikes.... And excursions)`,
 
 		"quick": "Liens Rapides",
@@ -168,13 +169,14 @@ const translations = {
 		"djerba-ghilane": `Excursion de Djerba à Ksar Ghilane et Visiter les Saharas.`,
 		"djerba-tozeur": `Visites de  Tozeur 
 		au départ de Djerba.`,
-		
+
 		"days": `1 jour - 4 jours`,
-		
+
 		"popular-des": `Nos destinations 
 						 les plus populaires!`,
 
-
+		"saharian-text": "Profitez de différents saharas dans les régions du sud de la Tunisie.",
+		"saharian": "Tours Sahariens",
 		"meet": "Rencontrez votre guide, Ahmed 👋",
 		"about-text": `Salut! Je m'appelle Ahmed Gnouma, j'ai 36 ans. Je suis originaire de Matmata, un village berbère que la nature a envoyé dans ce magnifique endroit désertique et géographique. J'aime guider les voyageurs pour découvrir Matmata et ses environs ainsi que Tataouine et le Sahara tunisien. Je mets mon expérience du tourisme à votre service pour plusieurs événements que je peux vous proposer (Circuits... Randonnées... Et excursions)`,
 		"quick": "Liens Rapides",

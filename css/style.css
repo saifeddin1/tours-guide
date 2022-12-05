@@ -494,7 +494,7 @@ header.sticky {
 }
 
 .stars i {
-	color: var(--main-color);
+	color: rgb(252, 231, 48);
 	font-size: 20px;
 }
 
