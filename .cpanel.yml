@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/laaupfxi/public_html/
+    - /bin/cp -r * $DEPLOYPATH
+    # - /bin/cp index.html $DEPLOYPATH
+    # - /bin/cp style.css $DEPLOYPATH
+    # - /bin/cp composer.json $DEPLOYPATH
+    # - /bin/cp main.js $DEPLOYPATH
+    # - /bin/cp send-mail.php $DEPLOYPATH
+    # - /bin/cp -R assets $DEPLOYPATH
+    # - /bin/cp -R vendor $DEPLOYPATH
