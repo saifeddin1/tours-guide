@@ -207,7 +207,31 @@ document.addEventListener("DOMContentLoaded", () => {
 		document.querySelector('.newsletter form div').style.marginRight = "0";
 
 	}
+
+
+
+
 });
+
+window.onload = () => {
+	// Array of Images
+	var backgroundImg = [
+		"./img/BatchWatermark.com/start2.jfif",
+		"./img/BatchWatermark.com/ahmed\(38\)-c.jpg",
+		"./img/BatchWatermark.com/ahmed\(72\).jpg",
+		"./img/BatchWatermark.com/ahmed\(71\).jpg",
+		// "./img/BatchWatermark.com/ahmed\(71\).jpg",
+	]
+
+	setInterval(changeImage, 3000);
+	function changeImage() {
+		var i = Math.floor((Math.random() * 3));
+
+		document.querySelector('.home').style.backgroundImage = "url('" + backgroundImg[i] + "')";
+
+
+	}
+}
 function translateElement(element) {
 	const key = element.getAttribute("data-translation");
 	const translation = translations[locale][key];
