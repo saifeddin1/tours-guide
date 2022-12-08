@@ -75,8 +75,8 @@ const translations = {
 		"cta-book": "Book Now",
 		"best-pkgs": `Our Best 
 						Tour Packages`,
-		"best-text": `The packages and prices varies depending on several factors
-						such as departure place, number of individuals etc ...`,
+		"best-text": `Packages and prices differ depending on several factors
+		such as the place of departure, the number of individuals etc ...`,
 
 		"matmata-tataouine-1": `Visit Berber village and ksour of tatouine.`,
 		// "matmata-tataouine-2": `Lunch around noon`,
@@ -149,8 +149,8 @@ const translations = {
 		"cta-book": "Réserver Maintenant",
 		"best-pkgs": `Nos Meilleurs
 						Packages`,
-		"best-text": `Les forfaits et les prix varient en fonction de plusieurs facteurs
-						comme le lieu de départ, le nombre d'individus etc...`,
+		"best-text": `Les forfaits et les prix se diffèrent selon plusieurs facteurs
+		comme le lieu de départ, le nombre d'individus etc...`,
 
 		"matmata-tataouine-1": `Viste village berber et ksour de tatouine.`,
 		// "matmata-tataouine-2": `Déjeuner vers midi`,

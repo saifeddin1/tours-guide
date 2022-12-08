@@ -177,7 +177,8 @@ section.container {
 	background-color: inherit;
 	float: left;
 	border: none;
-	outline: none;
+	border-radius: 15px;
+	outline: 1px solid #f1f1f1;
 	cursor: pointer;
 	padding: 14px 16px;
 	transition: 0.3s;
@@ -210,6 +211,7 @@ section.container {
 	height: 100vh;
 	background-image: url(../img/BatchWatermark.com/start.jfif);
 	background-size: cover;
+	transition: background-image .5s ease-in-out;
 	background-position: center;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
@@ -783,11 +785,13 @@ header.sticky {
 #contact {
 	background: #000;
 	padding: 50px 9%;
+	padding-right: 5% !important;
 }
 
 .main {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .footer {
@@ -966,6 +970,12 @@ header.sticky {
 		margin-bottom: 12px;
 	}
 
+	.list#mymap {
+		width: 100% !important;
+		margin-bottom: 12px;
+		margin-top: 1rem;
+	}
+
 	#about-me-box .row {
 		justify-content: center;
 		flex-direction: column-reverse;
@@ -1049,7 +1059,8 @@ header.sticky {
 	}
 
 	.tab button {
-		margin: 0;
+		margin-inline: 5px;
+		margin-bottom: 10px;
 	}
 
 	.newsletter form div {
@@ -1153,11 +1164,13 @@ a.open-modal:active {
 	justify-content: center;
 	align-items: center;
 	position: fixed;
-	right: 20px;
+	right: 15px;
+	padding: 6px;
+	background: #fff;
 	bottom: 90px;
 	z-index: 999;
 	cursor: pointer;
-	/* mix-blend-mode: difference; */
+	border-radius: 10px;
 }
 
 /********************************************************************** gallery */
