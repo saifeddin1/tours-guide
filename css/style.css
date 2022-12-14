@@ -572,6 +572,7 @@ header.sticky {
 	flex-direction: column;
 	width: 100%;
 	padding: 0 !important;
+	margin-bottom: 2rem;
 }
 
 .testimonial-heading {
@@ -595,7 +596,7 @@ header.sticky {
 .testimonial-box-container {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 	flex-wrap: wrap;
 	width: 100%;
 }

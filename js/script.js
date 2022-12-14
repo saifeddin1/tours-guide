@@ -108,8 +108,8 @@ const translations = {
 		villages while having our activities.`,
 		"riche": "Our rich Gallery",
 		"rich-text": "Here you can find all different photos taken either by us or by our customers",
-
-
+		"hugo": "I had the opportunity to do a multi-day desert tour with Ahmed. The experience was amazing and Ahmed is a very attentive guide who knows this environment like the back of his hand.",
+		"romina": "I had a pleasant visit with Ahmed in the south of Matmata and Tatouine! Ahmed is a serious person, available, speaks French very well and gets along with Italian! He knows what he's talking about and tries to answer all your questions! I highly recommend it!",
 
 
 	},
@@ -186,6 +186,8 @@ const translations = {
 		du sud tunisien tout en ayant nos activités.`,
 		"riche": "Notre riche galerie",
 		"rich-text": "Ici vous pouvez trouver toutes les différentes photos prises par nous ou par nos clients",
+		"hugo": "J'ai eu l'opportunité de faire une excursion de plusieurs jours dans le désert avec Ahmed. L'expérience était incroyable et Ahmed est un guide très attentif qui connait cet environnement comme sa poche.",
+		"romina": "Ho fatto una visita piacevole con Ahmed nel sud di Matmata e Tatouine! Ahmed è una persona seria, disponibile, parla molto bene il francese e se la cava con l’italiano! Sa di cosa parla e cerca di rispondere a tutte le vostre domande! Lo consiglio vivamente!",
 
 
 
